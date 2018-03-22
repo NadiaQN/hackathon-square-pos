@@ -1,17 +1,16 @@
 import React, { Component } from 'react';
 import Menu from './Components/Dashboard/Menu/Menu';
 import Container from './Components/Dashboard/Container/Container';
-/*import Home from './Components/Home';*/
+import Navbar from './Components/Dashboard/Navbar/Navbar';
 import './App.css';
-
 
 class App extends Component {
   render() {
     return (
-      <div>
+      <div className='App'>
+        <Navbar />
         <Menu/>
         <Container />
-        {/*<Home />*/}
       </div>
     );
   }
