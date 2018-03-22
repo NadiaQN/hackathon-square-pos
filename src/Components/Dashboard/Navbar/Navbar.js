@@ -1,9 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Navbar, ListGroup, ListGroupItem, Col } from 'react-bootstrap';
+import './navbar.css';
 
 const navbar = () => (
-    <Navbar>
+    <Navbar className="navbar">
         <Navbar.Header>
             <Navbar.Brand>
                 <a href="index.html">Brand</a>
