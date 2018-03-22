@@ -1,0 +1,11 @@
+.products {
+  display: inline-block;
+  margin: 2%;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 5%;
+}
+
+img {
+  width: 25%;
+}
