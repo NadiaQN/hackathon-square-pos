@@ -1,18 +1,31 @@
 import React from 'react';
-import { Switch, Route } from "react-router-dom";
-import Catalogo from './Catalogo/Catalogo';
-import Informes from './Informes/Informes';
-import Transacciones from './Transacciones/Transacciones';
-import Registros from './Registros/Registros';
+import { Link } from 'react-router-dom';
+import { Col } from 'react-bootstrap';
+import './../../../App.css';
+
 
 
 const Menu = () => (
-    <menu>
-            <Route exact path="/" component={Catalogo} />
-            <Route path="/inventory" component={Transacciones} />
-            <Route path="/transactions" component={Registros} />
-            <Route path="/livecart" component={Informes} />
-    </menu>
+            <menu className='menu'>
+                <Col md={4}>
+                    <div>
+                        <ul>
+                            <li>
+                                <Link to="/">Catalogo</Link>
+                            </li>
+                            <li>
+                                <Link to="/transactions">Transacciones</Link>
+                            </li>
+                            <li>
+                                <Link to="/records">Registros</Link>
+                            </li>
+                            <li>
+                                <Link to="/reports">Informes</Link>
+                            </li>
+                        </ul>
+                    </div>
+                </Col>
+            </menu>
 );
 
 export default Menu;
