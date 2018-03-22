@@ -1,7 +1,12 @@
 import React from 'react';
+import ventas from './DataVentas.js';
+import { Col } from 'react-bootstrap';
 
-const Caja = () => (
-    <p>Cuadre de caja</p>
-);
+const Caja = () => {
+    return (
+        <p>holii</p>
+    )
+}
+    
 
 export default Caja;
