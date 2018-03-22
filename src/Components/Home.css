@@ -3,17 +3,19 @@ body {
 }
 .logo {
     text-align: center;
+    width:80%;
 }
 .posimg{
-    height:200px;
-    width:auto;
+    height:30vh;
+    width:50vh;
+    padding-bottom:5%;
 }
 
 .centimg{
     text-align:center;
 }
 
-p{
+.txtp{
     color:#fff;
     text-align:center;
 }
