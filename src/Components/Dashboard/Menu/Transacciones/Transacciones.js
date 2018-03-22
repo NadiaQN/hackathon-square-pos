@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Transacciones = () => (
-    <p>Transacciones</p>
+    <p>hola</p>
 );
 
 export default Transacciones;
