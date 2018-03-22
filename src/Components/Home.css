@@ -1,7 +1,31 @@
-.test {
-    color:red;
-    text-align:center;
+body {
+    background:#28618b;
 }
 .logo {
+    text-align: center;
+}
+.posimg{
+    height:200px;
+    width:auto;
+}
+
+.centimg{
     text-align:center;
+}
+
+p{
+    color:#fff;
+    text-align:center;
+}
+
+.orange{
+    background-color:#eb7a0a;
+}
+
+.orange:hover{
+    background-color:#eb7a0a;
+}
+
+.orange:before{
+    background-color:#eb7a0a;
 }
