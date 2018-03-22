@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*import React from 'react';
 import { Grid, Row, Col } from 'react-bootstrap';
 import Homestyle from './Home.css';
@@ -17,3 +18,12 @@ const Home = () => (
 );
 
 export default Home;*/
+=======
+import React from 'react';
+
+const Home = () => (
+    <p>Home</p>
+)
+
+export default Home;
+>>>>>>> upstream/master

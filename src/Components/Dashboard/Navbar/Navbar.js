@@ -6,7 +6,7 @@ const navbar = () => (
     <Navbar>
         <Navbar.Header>
             <Navbar.Brand>
-                <a href="#home">Brand</a>
+                <a href="index.html">Brand</a>
             </Navbar.Brand>
             <Navbar.Toggle />
         </Navbar.Header>
@@ -15,18 +15,33 @@ const navbar = () => (
             <Col mdHidden>
                 <ListGroup>
                     <ListGroupItem>
-                        <Link to="/">Catalogo</Link>
+                        <Link to="/">Inicio</Link>
                     </ListGroupItem>
                     <ListGroupItem>
-                        <Link to="/transactions">Transacciones</Link>
+                        <Link to="/sale">Registro de Ventas</Link>
                     </ListGroupItem>
                     <ListGroupItem>
-                        <Link to="/records">Registros</Link>
+                        <Link to="/reports">Cuadre de Caja</Link>
                     </ListGroupItem>
                     <ListGroupItem>
-                        <Link to="/reports">Informes</Link>
+                        <Link to="/informs">Informe de Ventas</Link>
                     </ListGroupItem>
-                </ListGroup> 
+                    <ListGroupItem>
+                        <Link to="/catalog">Catalogo de Productos</Link>
+                    </ListGroupItem>
+                    <ListGroupItem>
+                        <Link to="/expenses">Gastos</Link>
+                    </ListGroupItem>
+                    <ListGroupItem>
+                        <a>Ajustes</a>
+                    </ListGroupItem>
+                    <ListGroupItem>
+                        <a>Ayuda</a>
+                    </ListGroupItem>
+                    <ListGroupItem>
+                        <a>Salir</a>
+                    </ListGroupItem>
+                </ListGroup>
             </Col>   
         </Navbar.Collapse>
     </Navbar>
