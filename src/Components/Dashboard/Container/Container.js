@@ -1,17 +1,21 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-import Catalogo from './../Menu/Catalogo/Catalogo';
+import Home from './../../Home';
+import Ventas from './../Menu/Ventas/Ventas';
+import Caja from './../Menu/Caja/Caja';
 import Informes from './../Menu/Informes/Informes';
-import Transacciones from './../Menu/Transacciones/Transacciones';
-import Registros from './../Menu/Registros/Registros';
+import Catalogo from './../Menu/Catalogo/Catalogo';
+import Gastos from './../Menu/Gastos/Gastos';
 
 const Container = () => (
     <Switch>
         <div>
-            <Route exact path="/" component={Catalogo} />
-            <Route path="/transactions" component={Transacciones} />
-            <Route path="/records" component={Registros} />
-            <Route path="/reports" component={Informes} />
+            <Route exact path="/" component={Home} />
+            <Route path="/sale" component={Ventas} />
+            <Route path="/reports" component={Caja} />
+            <Route path="/informs" component={Informes} />
+            <Route path="/catalog" component={Catalogo} />
+            <Route path="/expenses" component={Gastos} />
         </div>
     </Switch>  
 
