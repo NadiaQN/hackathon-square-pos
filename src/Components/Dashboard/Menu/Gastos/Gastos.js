@@ -1,7 +1,12 @@
 import React from 'react';
+import { Col } from 'react-bootstrap';
 
-const Gastos = () => (
-    <p>Informe de gastos</p>
-);
+const Gastos = () => {
+    return (
+        <Col md={8}>
+            <h3>Informe de Gastos</h3>
+        </Col>
+    )
+}
 
 export default Gastos;

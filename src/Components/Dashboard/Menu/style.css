@@ -1,0 +1,30 @@
+.menu {
+  color: #fff;
+  width: 100%;
+}
+
+.col {
+  margin-left: -4.5%;
+  margin-top: -1.5%;
+}
+
+.itemGroup {
+  height: 161vh;
+  background-color: #303F5E;
+}
+
+.item {
+  margin-bottom: 5%;
+  background-color: #303F5E;
+  border: none;
+  text-align: center;
+}
+
+.link {
+  color: #fff;
+  text-decoration: none;
+}
+.link:hover{
+  color: gray;
+  text-decoration: none;
+}
