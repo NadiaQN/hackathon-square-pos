@@ -5,6 +5,7 @@ const Gastos = () => {
     return (
         <Col md={4}>
             <h3>Informe de Gastos</h3>
+            <h4>Marzo 2018</h4>
             <Table responsive>
                 <thead>
                     <th>Detalle</th>
