@@ -63,7 +63,7 @@ const Informes = () => (
 <td>$12.990</td>
 </tr>
   </tbody>
-</Table>;
+</Table>
 </Col>
     </Row>
     </Grid>

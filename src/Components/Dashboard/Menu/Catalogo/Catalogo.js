@@ -15,8 +15,8 @@ const Catalogo = ({name, img, stock, price}) => (catalog.map((catalog) =>
           </Thumbnail>
         </Col>
       </Row>
-    </Grid>;
-  </div>));
+    </Grid>
+  </div>))
 
 export default Catalogo;
 

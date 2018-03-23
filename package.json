@@ -2,9 +2,12 @@
   "name": "hackathon-pos",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://nadiaqn.github.io/hackathon-square-pos/",
   "dependencies": {
     "axios": "^0.18.0",
     "firebase": "^4.12.0",
+    "font-awesome": "^4.7.0",
+    "gh-pages": "^1.1.0",
     "history": "^4.7.2",
     "immutable": "^3.8.2",
     "moment": "^2.21.0",
@@ -23,6 +26,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   }
 }

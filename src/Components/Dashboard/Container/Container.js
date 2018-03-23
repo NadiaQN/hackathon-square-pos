@@ -6,6 +6,7 @@ import Caja from './../Menu/Caja/Caja';
 import Informes from './../Menu/Informes/Informes';
 import Catalogo from './../Menu/Catalogo/Catalogo';
 import Gastos from './../Menu/Gastos/Gastos';
+import Ayuda from './../Menu/Help/Help';
 
 const Container = () => (
     <Switch>
@@ -16,6 +17,7 @@ const Container = () => (
             <Route path="/informs" component={Informes} />
             <Route path="/catalog" component={Catalogo} />
             <Route path="/expenses" component={Gastos} />
+            <Route path="/help" component={Ayuda} />
         </div>
     </Switch>  
 
